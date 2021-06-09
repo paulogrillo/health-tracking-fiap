@@ -43,7 +43,8 @@ header nav div strong {
 }
 header nav div p {
     color: #FFF8F8;
-    margin: 2px
+    margin-right: 1.2rem;
+    padding-top: 0.7rem;
 }
 
 
@@ -68,20 +69,28 @@ article  {
    margin-bottom: -10px;
 }
 
-.section-text {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-}
 
 .login {
     display: flex;
     justify-content:space-between;
-    padding: auto;
+    padding-top: 0.6rem;
+    z-index: 0;
 }
 
 .login-icon {
-    width:2rem;
-    height:2rem;
+    width:2.5rem;
+    height:2.5rem;
     margin-top: 5px;
+}
+
+.formulario {
+  
+    margin-top: 8%;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    
 }
