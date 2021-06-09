@@ -2,6 +2,11 @@
 @media only screen and (max-width: 600px) {
     .logo {
       width: 10.5rem;
+      padding-top: 1rem;
+      
+    }
+    main form div input {
+      width: 80%;
     }
     header nav div strong {
       color: #FFF8F8;
