@@ -14,10 +14,11 @@
         margin-left: 6%;
         margin-right: 5%;
     }
-
-      main form div input {
-        width: 80%;
-      }
+    main form div label {
+      font-size: 28px;
+      line-height: 35px;
+    }
+  
       header nav div strong {
         color: #FFF8F8;
       }
@@ -42,9 +43,32 @@
         justify-content: center;
         outline: none;
     }
- 
-
-  
     }
 
+@media only screen and (max-width: 420px){
+    main form div label {
+      font-size: 22px;
+      line-height: 25px;
+    }
+
+  .formulario {
+        margin-top: 15%;
+        max-width: auto;
+        margin-left: 9%;
+        align-items: center;
+        justify-content: center;
+        outline: none;
+    }
+
+    main form div label {
+      font-size: 20px;
+      line-height: 45px;
+      width: auto;
+      margin-top: 1rem;
+    }
+    .check {
+    font-size: 15px;
+    line-height: 20px;
+  }
+    }
     
