@@ -3,6 +3,10 @@
     background-color: rgb(20, 83, 166);
 }
 
+.logo {
+    width: 80%;
+}
+
 
 h1, h2, h3 { 
     color: #FFF6E2;
@@ -42,10 +46,24 @@ header nav div strong {
       
 }
 header nav div p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+
+    
     color: #FFF8F8;
-    margin: 2px
 }
 
+main article section h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+
+    color: #FCFCFC;
+}
 
 article  {
 
@@ -72,6 +90,14 @@ article  {
     text-align: center;
     display: flex;
     flex-direction: column;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 98px;
+    line-height: 115px;
+
+    color: #FCFCFC;
 }
 
 .login {

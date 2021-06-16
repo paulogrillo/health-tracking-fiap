@@ -1,0 +1,50 @@
+@media only screen and (min-width: 1240px){
+  main form div label {
+    width: 1240px;
+  }
+  .formulario {
+    margin-left: 8%;
+  }
+
+
+} 
+
+@media only screen and (max-width: 780px) {
+    nav{
+        margin-left: 6%;
+        margin-right: 5%;
+    }
+
+      main form div input {
+        width: 80%;
+      }
+      header nav div strong {
+        color: #FFF8F8;
+      }
+    
+    .logo {
+        width: 10.5rem;
+        padding-top: 1rem;
+        
+    }
+    .arrow-icon {
+        width:2rem;
+        height:2rem;
+        margin-top: 1rem;
+    
+    }
+
+  .formulario {
+        margin-top: 20%;
+        max-width: 80%;
+        margin-left: 10%;
+        align-items: center;
+        justify-content: center;
+        outline: none;
+    }
+ 
+
+  
+    }
+
+    

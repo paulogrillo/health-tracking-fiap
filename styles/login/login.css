@@ -3,6 +3,9 @@
     background-color: rgb(20, 83, 166);
 }
 
+.logo {
+    width: 80%;
+}
 
 h1, h2, h3 { 
     color: #FFF6E2;
@@ -29,20 +32,37 @@ header nav {
 
 }
 
+
+.input-config {
+    background: #96D9CC;
+    box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+    border-radius: 11px;
+    padding: 2rem;
+    }
+
+    main form div label {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 38px;
+        line-height: 45px;
+        width: 400px;
+        margin-top: 1rem;
+        /* identical to box height */
+        color: #FFFFFF;
+      
+      }
 .arrow-icon {
     width:2.5rem;
     height:2.5rem;
-    margin-top: 5px;
 }
 
+
 .formulario {
-  
-    margin-top: 8%;
-
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
     outline: none;
-    
+}
+.form-check-label {
+margin: 0;
+padding: 0;
+width: auto;
 }
