@@ -50,11 +50,15 @@ header nav div p {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-
-    
     color: #FFF8F8;
 }
-
+header nav div p a {
+    color: #FFF8F8;
+    text-decoration: none;
+}
+header nav div p a:hover {
+    color: #FFF8F8;
+}
 main article section h1 {
     font-family: Roboto;
     font-style: normal;
