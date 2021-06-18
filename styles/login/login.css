@@ -59,6 +59,10 @@ main form button a:hover {
     color: #FFFFFF;
 }
 
+main form div input {
+    height: 2.8rem;
+}
+
     main form div label {
         font-family: Roboto;
         font-style: normal;
