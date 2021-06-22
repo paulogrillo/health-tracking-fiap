@@ -6,8 +6,7 @@
 .logo {
     width: 80%;
 }
-
-h1, h2, h3 { 
+label, a { 
     color: #FFF6E2;
     font-size: medium;
     font-weight: 600;
@@ -31,10 +30,18 @@ header nav {
     margin-top: 1.2rem;
 
 }
+.input-config::placeholder{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 29px;
+line-height: 34px;
 
+color: rgba(0, 0, 0, 0.3);
+}
 
 .input-config {
-    background: #96D9CC;
+
     box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
     border-radius: 11px;
     padding: 2rem;
@@ -51,9 +58,26 @@ main form p a {
 main form p a:hover {
     color: rgba(10, 11, 24, 0.568);
 }
+
+.btn-primary {
+    background: #F59010;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 80px;
+}
+.btn-primary:hover {
+    background: #f59210ce;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
+}
+
 main form button a {
     color: #FFFFFF;
     text-decoration: none;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 main form button a:hover {
     color: #FFFFFF;
