@@ -60,14 +60,14 @@ main form p a:hover {
 }
 
 .btn-primary {
-    background: #F59010;
+    background: #f27127;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     height: 80px;
     border-radius: 11px;
-    transition: 0.5s;
+    transition: 0.6s;
 }
 .btn-primary:hover {
-    background: #f59210ce;
+    background: #f67c35;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 11px;
 }
@@ -105,6 +105,13 @@ main form div input {
 .arrow-icon {
     width:2.5rem;
     height:2.5rem;
+    transition: 0.2s;
+    transition: all;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.arrow-icon:hover {
+    width:2.6rem;
+    height:2.6rem;
 }
 
 
