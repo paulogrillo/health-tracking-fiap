@@ -1,0 +1,202 @@
+
+.global {
+    background-color: rgb(20, 83, 166);
+}
+
+.logo {
+margin-left: 2rem;
+
+}
+label, a { 
+    color: #FFF6E2;
+    font-size: medium;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 1rem 1rem 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-top: 1.2rem;
+
+}
+.input-config::placeholder{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 29px;
+line-height: 34px;
+
+color: rgba(0, 0, 0, 0.3);
+}
+
+.input-config {
+
+    box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+    border-radius: 11px;
+    padding: 2rem;
+    }
+    
+main form p {
+    color: #FFFFFF;
+}
+
+
+main form p a {
+    color: rgba(10, 11, 24, 0.568);
+}
+main form p a:hover {
+    color: rgba(10, 11, 24, 0.568);
+}
+
+.btn-primary {
+    background: #e29d08;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 80px;
+    border-radius: 11px;
+    transition: 0.3s;
+}
+.btn-primary:hover {
+    background: #e29d08;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
+}
+
+main form button a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+main form button a:hover {
+    color: #FFFFFF;
+}
+
+main form div input {
+    height: 2.8rem;
+}
+
+    main form div label {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 38px;
+        line-height: 45px;
+        width: 400px;
+        margin-top: 1rem;
+        /* identical to box height */
+        color: #FFFFFF;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      
+      }
+.arrow-icon {
+    width:2.5rem;
+    height:2.5rem;
+    transition: 0.2s;
+    transition: all;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.arrow-icon:hover {
+    width:2.6rem;
+    height:2.6rem;
+}
+
+
+.formulario {
+    outline: none;
+}
+.form-check-label {
+margin: 0;
+padding: 0;
+width: auto;
+}
+
+
+@media only screen and (min-width: 1240px){
+    main form div label {
+      width: 1240px;
+    }
+    .formulario {
+      margin-left: 8%;
+    }
+    main form p {
+      text-align: start;
+  }
+  
+  
+  } 
+  
+  @media only screen and (max-width: 780px) {
+      nav{
+          margin-left: 6%;
+          margin-right: 5%;
+      }
+      main form div label {
+        font-size: 28px;
+        line-height: 35px;
+      }
+    
+        header nav div strong {
+          color: #FFF8F8;
+        }
+      
+
+      .arrow-icon {
+          width:2rem;
+          height:2rem;
+          margin-top: 1rem;
+      
+      }
+  
+    .formulario {
+          margin-top: 20%;
+          max-width: 80%;
+          margin-left: 10%;
+          align-items: center;
+          justify-content: center;
+          outline: none;
+      }
+      }
+  
+  @media only screen and (max-width: 420px){
+      main form div label {
+        font-size: 22px;
+        line-height: 25px;
+      }
+  
+    .formulario {
+          margin-top: 15%;
+          max-width: auto;
+          margin-left: 9%;
+          align-items: center;
+          justify-content: center;
+          outline: none;
+      }
+  
+      main form div label {
+        font-size: 20px;
+        line-height: 45px;
+        width: auto;
+        margin-top: 1rem;
+      }
+      .check {
+      font-size: 15px;
+      line-height: 20px;
+    }
+      }
+      
+  
