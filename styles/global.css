@@ -2,7 +2,10 @@
 .global {
     background-color: rgb(20, 83, 166);
 }
-
+*{
+    margin: 0;
+    padding: 0;
+}
 .logo {
     width: 70%;
 }

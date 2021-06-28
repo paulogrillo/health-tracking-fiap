@@ -110,10 +110,7 @@ main form div input {
     transition: all;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-.arrow-icon:hover {
-    width:2.6rem;
-    height:2.6rem;
-}
+
 
 
 .formulario {

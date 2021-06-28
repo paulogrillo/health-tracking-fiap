@@ -1,0 +1,147 @@
+
+.global {
+    background-color: rgb(20, 83, 166);
+}
+
+.logo {
+margin-left: 2rem;
+
+}
+
+.login-icon {
+    width:2rem;
+    height:2rem;
+    margin-top: -2px;
+    margin-left: 1rem;
+    transition: all;
+    transition: cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.login-user {
+    display: flex;
+    justify-content:space-between;
+    padding: auto;
+    width: auto;
+    margin-top: 1rem;
+}
+
+.login-user, a { 
+    color: #FFF6E2;
+    font-size: medium;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 1rem 1rem 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 200px;
+
+    
+}
+
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-top: 1.2rem;
+
+}
+
+
+.summary {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 2rem;
+margin-top: -10rem;
+}
+.bloco {
+    background: #FFF6E2;
+    padding: 1.5rem 2rem;  
+    border-radius: 0.25rem;
+  
+}
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+strong {
+    display: block;
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+}
+.bloco-result{
+background: #dce966;
+}
+
+        
+.dashboard{
+    position: relative;
+    max-width: 1920px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 2.5rem 1rem;
+    background-color: #96D9CC;
+}
+
+
+
+
+
+.tabela{
+margin-top: 4rem;
+
+}
+table {
+    width: 100%;
+    border-spacing: 0 0.5rem;
+    border: 0.12rem solid #eef;
+}
+th {
+    color: var (--text-body);
+    font-weight: 400;
+    padding: 1rem 2rem;
+    text-align: left;
+    line-height: 1.5;
+}
+
+@media (max-width: 700px){
+    th{ padding: 20px;
+    }
+}
+    
+        
+td {
+    padding: 1rem 2rem;
+    border: 0;
+    background: var(--shape-table);
+    color: var(--text-body);
+        }
+
+
+
+
+
+
+
+
+
+
+
+  
+@media only screen and (max-width: 700px){
+    .summary {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+        margin-top: -10rem;
+     }
+    }
