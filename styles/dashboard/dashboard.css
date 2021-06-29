@@ -231,8 +231,23 @@ td {
      box-sizing: border-box; 
  }
 
-@media (max-width: 700px){
-    th{ padding: 20px;
+ @media only screen and (max-width: 1400px){
+    .summary {
+        
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 1rem;
+            margin-top: -10rem;
+            padding: 0;
+         
+    }
+
+    .dashboard {
+        height: auto;
+        padding: 0.1rem 1rem;
+    }
+    .dashboard {
+        width: 100%;
     }
 }
     
