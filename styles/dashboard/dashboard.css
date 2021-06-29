@@ -105,6 +105,31 @@ strong {
 .bloco-result{
 background: #dce966;
 }
+.atividade span {
+    font-size: 26px;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.atividade {
+    padding: 1rem;
+    background-color: #FFF6E2;
+    width: 180px;
+    margin-bottom: 2rem;
+
+}
+
+
+.alimentacao span {
+    font-size: 26px;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.alimentacao {
+    padding: 1rem;
+    background-color: #FFF6E2;
+    width: 180px;
+    margin-bottom: 2rem;
+}
 
 .porcentagem {
     font-size: 6rem;
@@ -116,37 +141,46 @@ background: #dce966;
 .dashboard{
     position: relative;
     max-width: 1920px;
-    height: 100%;
+    height: 980px;
     margin: 0 auto;
     padding: 2.5rem 1rem;
     background-color: #96D9CC;
 }
 
-
-
-
-
 .tabela{
 margin-top: 4rem;
+width: 95%;
+padding-left: 5rem;
 
 }
 table {
-    width: 100%;
+    width: 600px;
     border-spacing: 0 0.5rem;
     border: 0.12rem solid #eef;
 
 
-    padding-left: 5rem;
-    padding-right: 5rem;
-
  
 }
+
+thead tr th {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 36px;
+    
+    color: #484848;
+}
 th {
-    color: #1A1918;
-    font-weight: 400;
-    padding: 1rem 2rem;
-    text-align: left;
-    line-height: 1.5;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+
+    padding: 0.8rem;
+    
+    color: #676565;
 
     border: 1px solid rgba(255, 255, 255, 0.49);
     box-sizing: border-box; 
@@ -176,6 +210,9 @@ td {
     color: #1A1918;
         }
 
+.data {
+    width: 20px;
+}
 
 
 
@@ -185,9 +222,17 @@ td {
         margin-left: 0rem;
         
         }
-        
+    .tabela {
+        padding-left: 0.1rem;
+    }
     .login-icon {
         margin-right: 0rem;
+    }
+    .dashboard {
+        height: 1200px;
+    }
+    .dashboard {
+        width: 100%;
     }
     .summary {
         display: grid;
@@ -219,5 +264,9 @@ td {
 
     .login-user, a {
         margin-right: 0.5rem;
+        }
+
+        .data {
+            
         }
     }
