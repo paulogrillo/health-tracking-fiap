@@ -138,7 +138,6 @@ background: #dce966;
 
 } 
 
-
 .alimentacao span {
     font-size: 26px;
     font-weight: 600;
@@ -230,6 +229,33 @@ td {
     border: 1px solid rgba(255, 255, 255, 0.49);
      box-sizing: border-box; 
  }
+
+
+.cicle {
+    position: fixed;
+    bottom: 2rem;
+    width: auto;
+    height: auto;
+    border-radius: 5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: 1.5s;
+
+
+}
+.cicle img {
+    width: 50px;
+    padding: .5rem;
+    opacity: 70%;
+}
+
+.cicle img:hover {
+    opacity: 100%;
+}
+
+.cicle:hover{
+    background-color: rgb(255, 255, 255);
+}
 
  @media only screen and (max-width: 1400px){
     .summary {
