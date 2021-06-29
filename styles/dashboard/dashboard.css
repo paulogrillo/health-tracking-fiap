@@ -160,8 +160,8 @@ background: #dce966;
         
 .dashboard{
     position: relative;
-    max-width: 1920px;
-    height: 980px;
+    max-width: 9999px;
+    height: auto;
     margin: 0 auto;
     padding: 2.5rem 1rem;
     background-color: #96D9CC;
@@ -247,7 +247,7 @@ td {
         padding: 0.1rem 1rem;
     }
     .dashboard {
-        width: 100%;
+        width: auto;
     }
 }
     
@@ -282,7 +282,7 @@ td {
         padding: 0.1rem 1rem;
     }
     .dashboard {
-        width: 100%;
+        width: auto;
     }
     .summary {
         display: grid;
