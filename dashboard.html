@@ -22,7 +22,7 @@
 </head>
 <body class="global">
 <!-- Cabeçalho -->
-<header>
+<header class="header-principal">
 <nav>
     <div class="row ">
         <a href="/">
@@ -41,30 +41,33 @@
 <!-- Conteúdo - Formulario de login -->
 <div class="dashboard">
     <div class="summary">
-
         <div class="bloco">
-            <header>
-                <p>Entradas</p>
-                <img src={incomeImg} alt="Entradas"/>
+            <header class="header-content ">
+                <h1>Altura</h1>
+
+                <img src="public/assets/ruler.png" alt="Entradas"/>
+                
             </header>
             <strong> R$ 14,200,00</strong>
         </div>
 
         <div class="bloco">
-            <header>
-                <p>Saídas</p>
-                <img src={outcomeImg} alt="Saídas"/>
+            <header class="header-content ">
+                <h1>Peso</h1>
+                <img src="public/assets/balanca.png" alt="Saídas"/>
             </header>
             <strong>- R$ 3.200,00</strong>
         </div>
 
-        <div class="bloco-result">
-            <header>
-                <p>Total</p>
-                <img src={totalImg} alt="total"/>
+        <div class="bloco">
+            <header class="header-content ">
+                <h1>Peso</h1>
+                <strong class="porcentagem">%</strong>
+
             </header>
-            <strong>R$ 11.000,00</strong>
+            <strong>- R$ 3.200,00</strong>
         </div>
+
 
     </div>
 
@@ -82,16 +85,23 @@
     
             <tbody>
                 <tr>
-                    <td>Titulo</td>
-                    
-                    <td className=""> 
-
-                    </td>
-                    <td>
-
-                    </td>
+                    <th>Tútulo da transação</th>
+                    <th>Valor</th>          
+                    <th>Data</th>
+        
                 </tr>
-
+                <tr>
+                    <th>Tútulo da transação</th>
+                    <th>Valor</th>          
+                    <th>Data</th>
+        
+                </tr>
+                <tr>
+                    <th>Tútulo da transação</th>
+                    <th>Valor</th>          
+                    <th>Data</th>
+        
+                </tr>
             </tbody>
     
               </table>
